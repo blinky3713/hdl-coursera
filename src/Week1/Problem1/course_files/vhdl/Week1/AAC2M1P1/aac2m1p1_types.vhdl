@@ -2,7 +2,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 
-package comparator2_types is
+package aac2m1p1_types is
 
 
 
@@ -16,7 +16,7 @@ package comparator2_types is
   function fromSLV (slv : in std_logic_vector) return std_logic;
 end;
 
-package body comparator2_types is
+package body aac2m1p1_types is
   function toSLV (b : in boolean) return std_logic_vector is
   begin
     if b then

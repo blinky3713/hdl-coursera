@@ -5,15 +5,15 @@ use IEEE.NUMERIC_STD.ALL;
 use IEEE.MATH_REAL.ALL;
 use std.textio.all;
 use work.all;
-use work.comparator2_types.all;
+use work.aac2m1p1_types.all;
 
-entity comparator2 is
+entity AAC2M1P1 is
   port(A      : in std_logic_vector(1 downto 0);
        B      : in std_logic_vector(1 downto 0);
        Equals : out std_logic);
 end;
 
-architecture structural of comparator2 is
+architecture structural of AAC2M1P1 is
   signal \c$Equals_selection_res\ : boolean;
 
 begin
