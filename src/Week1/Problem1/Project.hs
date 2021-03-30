@@ -4,7 +4,7 @@ import Clash.Prelude
 
 {-# ANN comparator2
   (Synthesize
-    { t_name   = "AAC2M1P1"
+    { t_name   = "comparator2"
     , t_inputs = [ PortName "A"
                  , PortName "B"
                  ]
