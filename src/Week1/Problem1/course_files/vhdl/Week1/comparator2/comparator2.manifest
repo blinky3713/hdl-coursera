@@ -1,2 +1,0 @@
-Manifest {manifestHash = (-6882011497986005393,Nothing), successFlags = (20,20,False), portInNames = ["A","B"], portInTypes = ["std_logic_vector(1 downto 0)","std_logic_vector(1 downto 0)"], portOutNames = ["Equals"], portOutTypes = ["std_logic"], componentNames = ["comparator2"]}
-
